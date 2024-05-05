@@ -34,7 +34,22 @@ const router = new Router({
                     path: '/page4',
                     name: 'page4',
                     component: () => import('@/views/page4')
-                }
+                },
+                {
+                    path: '/page5',
+                    name: 'page5',
+                    component: () => import('@/views/page5')
+                },
+                {
+                    path: '/page6',
+                    name: 'page6',
+                    component: () => import('@/views/page6')
+                },
+                {
+                    path: '/userInfo',
+                    name: 'userInfo',
+                    component: () => import('@/views/userInfo')
+                },
             ]
         }
     ]
